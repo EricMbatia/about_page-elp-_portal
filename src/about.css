@@ -1,0 +1,110 @@
+/*default-small size screens upto 768px wide*/
+.container {
+    text-align: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 0px;
+    background: #F4F4F4;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    font-size: 14px;
+    
+}
+
+.about_us {
+    color: #AD312F;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.about_us_div {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #534342;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+
+.our_philosophy {
+    color: #AD312F; 
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+
+.pmv_common {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+.lower_box {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* CSS for medium devices */
+    
+    .about_us_div {
+        padding: 50px;
+        padding-bottom: 25px;
+        padding-top: 0px;
+        text-align: left;
+    }
+    .lower_box {
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+    .purpose_mission_vision {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .pmv_box {
+        width: 30%;
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+
+}
+
+@media (min-width: 992px)  {
+    /* CSS for large devices */
+    .about_us_div{
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+
+    }
+    .lower_box {
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+    .purpose_mission_vision {
+        display: flex;
+        justify-content: space-between;
+    }
+    .pmv_box {
+        width: 30%;
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+
+}
+
